@@ -23,7 +23,7 @@ $(function(){
 		$('.content-img').stop().animate({left:'0px'},1000);
 	}
 	
-
+	scrollshow();
  	function navbar(e){
  		$('#caidan li').find('a').removeClass('action');
 		$('#caidan li').find('a').eq(e).addClass('action');
